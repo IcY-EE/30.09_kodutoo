@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-task-tracker-topics",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node 2.js",
+    "topic:5": "node 5-server.js",
+    "topic:6": "node 6.js",
+    "topic:7": "node 7.js",
+    "topic:8": "node 8.js",
+    "topic:9": "node 9.js",
+    "topic:13": "node 13.js",
+    "dev": "vite",
+    "test": "vitest run",
+    "test:files": "vitest run 15.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "supertest": "^7.0.0",
+    "vite": "^6.0.7",
+    "vitest": "^2.1.8"
+  }
+}
